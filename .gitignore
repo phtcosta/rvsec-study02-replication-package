@@ -1,0 +1,24 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Generated output
+/out/
+
+# Data: only the zips, their sidecars and the docs are tracked.
+# Everything else under data/ is restored by `make restore`.
+/data/**
+!/data/**/
+!/data/**/*.zip
+!/data/**/*.sha256
+!/data/SHA256SUMS
+!/data/README.md
+
+# Editors and OS
+.idea/
+.vscode/
+*.swp
+*~
+.DS_Store

@@ -1,0 +1,45 @@
+row,column,expected
+ape,60,255
+ape,180,312
+ape,300,352
+ape,% Gain (300s vs 60s),38.0
+ares,60,206
+ares,180,272
+ares,300,300
+ares,% Gain (300s vs 60s),45.6
+droidbot:bfs_greedy,60,210
+droidbot:bfs_greedy,180,295
+droidbot:bfs_greedy,300,309
+droidbot:bfs_greedy,% Gain (300s vs 60s),47.1
+droidbot:bfs_naive,60,206
+droidbot:bfs_naive,180,249
+droidbot:bfs_naive,300,259
+droidbot:bfs_naive,% Gain (300s vs 60s),25.7
+droidbot:dfs_greedy,60,213
+droidbot:dfs_greedy,180,291
+droidbot:dfs_greedy,300,296
+droidbot:dfs_greedy,% Gain (300s vs 60s),39.0
+droidbot:dfs_naive,60,211
+droidbot:dfs_naive,180,247
+droidbot:dfs_naive,300,252
+droidbot:dfs_naive,% Gain (300s vs 60s),19.4
+droidmate,60,249
+droidmate,180,281
+droidmate,300,297
+droidmate,% Gain (300s vs 60s),19.3
+fastbot,60,243
+fastbot,180,268
+fastbot,300,286
+fastbot,% Gain (300s vs 60s),17.7
+humanoid,60,222
+humanoid,180,265
+humanoid,300,296
+humanoid,% Gain (300s vs 60s),33.3
+monkey,60,232
+monkey,180,294
+monkey,300,308
+monkey,% Gain (300s vs 60s),32.8
+qtesting,60,198
+qtesting,180,228
+qtesting,300,234
+qtesting,% Gain (300s vs 60s),18.2

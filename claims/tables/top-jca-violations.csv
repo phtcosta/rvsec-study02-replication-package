@@ -1,0 +1,67 @@
+row,column,expected
+SSLContextSpec,Total,67
+SSLContextSpec,App-code,9
+SSLContextSpec,App-code (%),13.43
+TrustManagerFactorySpec,Total,67
+TrustManagerFactorySpec,App-code,3
+TrustManagerFactorySpec,App-code (%),4.48
+CipherSpec,Total,63
+CipherSpec,App-code,12
+CipherSpec,App-code (%),19.05
+MessageDigestSpec,Total,60
+MessageDigestSpec,App-code,12
+MessageDigestSpec,App-code (%),20.00
+SecretKeySpecSpec,Total,56
+SecretKeySpecSpec,App-code,11
+SecretKeySpecSpec,App-code (%),19.64
+IvChainJunctionSpec,Total,39
+IvChainJunctionSpec,App-code,5
+IvChainJunctionSpec,App-code (%),12.82
+GCMParameterSpecSpec,Total,28
+GCMParameterSpecSpec,App-code,4
+GCMParameterSpecSpec,App-code (%),14.29
+IvParameterSpecSpec,Total,16
+IvParameterSpecSpec,App-code,5
+IvParameterSpecSpec,App-code (%),31.25
+KeyPairSpec,Total,7
+KeyPairSpec,App-code,2
+KeyPairSpec,App-code (%),28.57
+KeyFactorySpec,Total,6
+KeyFactorySpec,App-code,1
+KeyFactorySpec,App-code (%),16.67
+MacSpec,Total,6
+MacSpec,App-code,1
+MacSpec,App-code (%),16.67
+SecureRandomSpec,Total,6
+SecureRandomSpec,App-code,1
+SecureRandomSpec,App-code (%),16.67
+PBEKeySpecSpec,Total,5
+PBEKeySpecSpec,App-code,4
+PBEKeySpecSpec,App-code (%),80.00
+SecretKeyFactorySpec,Total,5
+SecretKeyFactorySpec,App-code,4
+SecretKeyFactorySpec,App-code (%),80.00
+SignatureSpec,Total,5
+SignatureSpec,App-code,0
+SignatureSpec,App-code (%),0.00
+KeyAgreementSpec,Total,4
+KeyAgreementSpec,App-code,0
+KeyAgreementSpec,App-code (%),0.00
+KeyStoreSpec,Total,4
+KeyStoreSpec,App-code,3
+KeyStoreSpec,App-code (%),75.00
+KeyManagerFactorySpec,Total,3
+KeyManagerFactorySpec,App-code,0
+KeyManagerFactorySpec,App-code (%),0.00
+AlgorithmParametersSpec,Total,2
+AlgorithmParametersSpec,App-code,2
+AlgorithmParametersSpec,App-code (%),100.00
+X509EncodedKeySpecSpec,Total,2
+X509EncodedKeySpecSpec,App-code,1
+X509EncodedKeySpecSpec,App-code (%),50.00
+KeyPairGeneratorSpec,Total,1
+KeyPairGeneratorSpec,App-code,1
+KeyPairGeneratorSpec,App-code (%),100.00
+SSLEngineSpec,Total,1
+SSLEngineSpec,App-code,0
+SSLEngineSpec,App-code (%),0.00

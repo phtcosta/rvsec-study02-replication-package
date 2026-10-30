@@ -1,0 +1,20 @@
+Data license
+
+Copyright (c) 2026 The authors
+
+Except as noted below, the data of this package is licensed under the Creative
+Commons Attribution 4.0 International License (CC BY 4.0):
+https://creativecommons.org/licenses/by/4.0/legalcode
+
+This covers every file under data/ (the zips, their sidecars and the files they
+restore, including the 47 specifications of data/instrument/specs.zip) and the
+expected values under claims/.
+
+Exception: the 49 CrySL rules in data/baselines/cognicrypt/crysl-rules.zip are
+an unmodified copy of the JavaCryptographicArchitecture rule set of
+CROSSINGTUD/Crypto-API-Rules, commit 6d844ab. They are distributed under their
+own license, the Eclipse Public License 2.0, whose text is in
+LICENSE-CRYSL-RULES. They are not covered by CC BY 4.0.
+
+The code (scripts/, tests/, Makefile, pyproject.toml) is licensed under the MIT
+License, in LICENSE.
