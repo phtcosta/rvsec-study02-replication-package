@@ -3,7 +3,7 @@
 This package checks the article's quantitative claims against the data of campaign
 `estudo02-20260916`. The campaign ran 11 test-generation tools on 163 F-Droid apps, with three
 budgets (60, 180, 300 s) and three repetitions each: 16,137 runs in image
-`phtcosta/rvandroid:0.9.4` (rvsec `fc51ab64`), monitored by 47 `jca_android` specifications. The
+`rvandroid:0.9.4` (rvsec `fc51ab64`), monitored by 47 `jca_android` specifications. The
 package holds only the spreadsheets the published numbers need, the scripts that compute those
 numbers, and the expected values. It recomputes 182 macros, 5 tables, the numbers of 2 figures,
 and 8 statements that have no macro. It compares each with the article's printed value. 8 more
@@ -373,19 +373,19 @@ The data dictionary, with the columns the published numbers use and the reading 
 Every file under `data/` is a byte-for-byte copy of an output or a pinned input of campaign
 `estudo02-20260916`. Nothing is re-instrumented, re-consolidated, filtered or trimmed; the only
 change is the anonymization of three files, below. The campaign ran in the image chain below. The
-images hold the tools, the specifications and their source code at the commits that ran. Pull by
-digest, not by tag (`ares` and `qtesting` are built outside the `0.9.4` chain; their tag only
-names them).
+images hold the tools, the specifications and their source code at the commits that ran. Each
+image is identified by its name, tag and content digest; the digest, not the tag, fixes the
+image (`ares` and `qtesting` are built outside the `0.9.4` chain; their tag only names them).
 
 | Image | Tag | Digest |
 |---|---|---|
-| `phtcosta/rvsec_base` | `0.9.4` | `sha256:a1d4801eb5bc912386ccefa819bbda8a8d9edb195a1f3bcbff9cf2b5c90e3774` |
-| `phtcosta/rvsec_android` | `0.9.4` | `sha256:3bb293bc94d73baf8beba3fbdccaf881a2281d1122ad27dd31ad1d4a8c8c5325` |
-| `phtcosta/rvandroid_tools` | `0.9.4` | `sha256:47a352463b7cd3c710fe17385ee067d83c79d3ef91b9632adddd883f7d177259` |
-| `phtcosta/rvandroid` | `0.9.4` | `sha256:130f127b5b4c4d88f6d700b57d20ced0ea171a47f622277d1afa7d2b99cfbce1` |
-| `phtcosta/humanoid` | `1.0` | `sha256:a902ff848b7cd22b06bcf56955c543ce63a7f873153c051c96b431c421d1f38a` |
-| `phtcosta/ares` | `20260813` | `sha256:d4879cfaf0755f44e07f753fc6eb5d6f0b9d88f8dfe64c7b90789568c086a767` |
-| `phtcosta/qtesting` | `20260813` | `sha256:e654c2e2defe1d9a761def94cdb6f19d0683d6c80c7d3295dedbd9da07477459` |
+| `rvsec_base` | `0.9.4` | `sha256:a1d4801eb5bc912386ccefa819bbda8a8d9edb195a1f3bcbff9cf2b5c90e3774` |
+| `rvsec_android` | `0.9.4` | `sha256:3bb293bc94d73baf8beba3fbdccaf881a2281d1122ad27dd31ad1d4a8c8c5325` |
+| `rvandroid_tools` | `0.9.4` | `sha256:47a352463b7cd3c710fe17385ee067d83c79d3ef91b9632adddd883f7d177259` |
+| `rvandroid` | `0.9.4` | `sha256:130f127b5b4c4d88f6d700b57d20ced0ea171a47f622277d1afa7d2b99cfbce1` |
+| `humanoid` | `1.0` | `sha256:a902ff848b7cd22b06bcf56955c543ce63a7f873153c051c96b431c421d1f38a` |
+| `ares` | `20260813` | `sha256:d4879cfaf0755f44e07f753fc6eb5d6f0b9d88f8dfe64c7b90789568c086a767` |
+| `qtesting` | `20260813` | `sha256:e654c2e2defe1d9a761def94cdb6f19d0683d6c80c7d3295dedbd9da07477459` |
 
 ### Anonymization
 
